@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/a39f886e48.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="image/icon.ico" />
+		<meta charset="utf-8" />
+		<meta name="author" content="Milos Stojanovski" />
+        <meta name="description" content="My work portfolio" />
+        <meta name="keywords" content="cv, portfolio, about me" />
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0;” />
+		<script src="https://kit.fontawesome.com/a39f886e48.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header id="heder">
+			<nav id="navigacija">
+				<a href="#"><i class="fas fa-home"></i></a>
+				<ul>
+					<li><a href="#sk">Skills</a></li>
+					<li><a href="#gallery">Projects</a></li>
+					<li><a href="#cont">Contact me</a></li>
+					<li><a href="#field">About me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="sk">
+		<h1>My Skills</h1>
+		<div id="skills">
+			<div class="skill">
+				<img src="image/html.jpg">
+				<p>html</p>
+			</div>
+			<div class="skill">
+				<img src="image/css.jpg">
+				<p>css3</p>
+			</div>
+			<div class="skill">
+				<img src="image/js.jpg">
+				<p>javascript</p>
+			</div>
+			<div class="skill">
+				<img src="image/bs.jpg">
+				<p>bootstrap</p>
+			</div>
+			<div class="skill">
+				<img src="image/ps.jpg">
+				<p>photoshop</p>
+			</div>
+			<div class="skill">
+				<img src="image/jq.jpg">
+				<p>jquery</p>
+			</div>
+			<div class="skill">
+				<img src="image/php.jpg">
+				<p>php</p>
+			</div>
+		</div>
+		</div>
+		<section id="gallery">
+			<h3>My projects</h3>
+			<div id="omot">
+				<figure class="img"><img src="image/1.jpg" /></figure>
+				<figure class="img"><img src="image/2.jpg"/></figure>
+				<figure class="img"><img src="image/3.jpg"/></figure>
+				<figure class="img"><img src="image/4.jpg"/></figure>
+			</div>
+		</section>
+		<section id="field">
+			<h1 name="1">About me</h1>
+			<div id="omeni">
+			<article id="txt">
+				<p>My name is Milos Stojanovski, I am a student of ICT College in Belgrade, Serbia. Programming, coding and digital design have always been a center of my interest, thus I always strived to excell in theese areas, with my primary goal being set on becoming a full stack developer. I am also working full time at Euronet World Wide, as a System Analyst.</p>
+			</article>
+			<div id="slika"><img src="image/profile.jpeg"/></div></div>
+		</section>
+		<section id="cont">
+		<h1>Conntact me</h1>
+			<div id="kon">
+				<ul>
+					<li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
+				</ul>
+			</div>
+		</section>
+		<footer id="futer">
+		<ul>
+			<li><p>Copyright &copy; Milos Stojanovski 2021</p></li>
+			<li><a href="sitemap.xml"><i class="fas fa-sitemap"></i></a></li>
+			<li><a href="css/sass.scss"><i class="fab fa-sass"></i></a></li>
+		</ul>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>  
+ 			$(window).on("scroll", function() {
+    			if($(window).scrollTop() > 680) {
+        			$("#navigacija").addClass("on-scroll");
+    			} else {
+       				$("#navigacija").removeClass("on-scroll");
+    			}
+			});
+		</script>
+	</body>
+</html>
