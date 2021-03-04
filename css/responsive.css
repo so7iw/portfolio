@@ -1,0 +1,101 @@
+@media screen and (max-width: 1441px){
+    #gallery {
+        height: 1750px;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    #sk{
+        height:600px;
+    }
+}
+@media screen and (max-width: 769px){
+    #code {
+        background-image: url('../image/code1.jpg');
+        background-size:1000px;
+    }
+    .background{
+        height:500px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 426px){
+    h1, h2, h3{
+        font-size: 25px;
+    }
+    #txt p, .img p, #futer ul li p{
+        font-size:15px;
+    }
+    #navigacija ul li a{
+        font-size:10px;
+        font-weight: 280;
+    }
+    .background{
+        height:200px;
+        width: 100%;
+    }
+    #code {
+        background-size:700px;
+    }
+    .skill img{
+        height: 150px;
+        width:auto;
+    }
+    #omot .img {
+        width:400px;
+    }
+    #gallery{
+        height: 1380px;
+        padding-top:50px;
+    }
+    .img a img {
+        width:100%;
+        height: auto;
+    }
+    #sk{
+        height:700px;
+        margin:10px 0px 50px 0px;
+    }
+    #field {
+        height: 700px;
+        padding-top:50px;
+    }
+    #txt{
+        width:400px;
+    }
+}
+@media screen and (max-width: 376px){
+    #txt{
+        width:345px;
+    }
+    #sk{
+        height: 850px;
+    }
+}
+@media screen and (max-width: 321px){
+    h1, h2, h3{
+        font-size: 20px;
+    }
+    #txt p, .img p, #futer ul li p, #kon p{
+        font-size:12px;
+    }
+    #navigacija a{
+        font-size:23px;
+    }
+    #code {
+        background-size:500px;
+    }
+    #txt{
+        width:300px;
+    }
+    #field{
+        height: 500px;
+    }
+    #field img{
+        height:250px;
+        width:auto;
+    }
+    #gallery {
+        height: 1130px;
+    }
+}
