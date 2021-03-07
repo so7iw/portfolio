@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <script src="https://kit.fontawesome.com/a39f886e48.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="image/icon.ico" />
+		<meta charset="utf-8" />
+		<meta name="author" content="Milos Stojanovski" />
+        <meta name="description" content="My work portfolio" />
+        <meta name="keywords" content="cv, portfolio, about me" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://kit.fontawesome.com/a39f886e48.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header id="heder" class="background">
+			<nav id="navigacija">
+				<a href="#"><i class="fas fa-home"></i></a>
+				<ul>
+					<li><a href="#sk">Skills</a></li>
+					<li><a href="#gallery">Projects</a></li>
+					<li><a href="#field">About me</a></li>
+					<li><a href="#cont">Contact me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="sk">
+		<h1>My Skills</h1>
+		<div id="skills">
+			<div class="skill">
+				<img src="image/html.jpg" alt="html5">
+				<p>html 5</p>
+			</div>
+			<div class="skill">
+				<img src="image/css.jpg" alt="css3">
+				<p>css 3</p>
+			</div>
+			<div class="skill">
+				<img src="image/js.jpg" alt="javascript">
+				<p>javascript</p>
+			</div>
+			<div class="skill">
+				<img src="image/bs.jpg" alt="bootstrap">
+				<p>bootstrap</p>
+			</div>
+			<div class="skill">
+				<img src="image/ps.jpg" alt="photoshop">
+				<p>photoshop</p>
+			</div>
+			<div class="skill">
+				<img src="image/jq.jpg" alt="jquery">
+				<p>jquery</p>
+			</div>
+			<div class="skill">
+				<img src="image/php.jpg" alt="php">
+				<p>php</p>
+			</div>
+		</div>
+		<p class="spacing">Skills that I have acquired so far, which help me realize my projects.</p>
+		</div>
+		<div id="code" class="background"></div>
+		<section id="gallery">
+			<h3>My projects</h3>
+			<div id="omot">
+				<div class="img"> <!-- Ovaj sajt nije responsive - on je radjen za web dizajn, tako da sam ga samo bez menjanja okacio ovde.-->
+					<a href="https://so7iw.github.io/rudaristore/"><img src="image/1.jpg" alt="RudariStore"></a>
+					<p>HTML 5 and CSS  3 - static website</p>
+					<p class="spacing">Check out my website for online store for local apparel business. Fast, simple, intuitive and with modern design.</p>
+				</div>
+				<div class="img">
+					<a href="https://maxfitgym.000webhostapp.com/"><img src="image/2.jpg" alt="MaxFit Gym"></a>
+					<p>HTML 5, CSS 3, JavaScript, jQuery, Bootstrap - dynamic website</p>
+					<p class="spacing">Check out my website for family founded gym and fitness center. Fully responsive design, with dynamically written content. Ideal for websites that require simple functionality, like booking a training session.</p>
+				</div>
+				<div class="img">
+					<a href="#"><img src="image/3.jpg" alt="telecom"></a>
+					<p>Future project - PHP, backend development</p>
+					<p class="spacing">Website planned for a telecom company - communication with server, for obtaining and editing of user-related information, for any needed check-up and remote maintenance.</p>
+				</div>
+				<div class="img">
+					<a href="#"><img src="image/4.jpg" alt="Green Earth"></a>
+					<p>Future project - JSON, AJAX, HTML 5, CSS 3, JavaScript, jQuery</p>
+					<p class="spacing">Website planned for "Green Earth" movement. Requires constantly updatable balance status, for easy tracking of newest donations, and for obtaining list of donors.</p>
+				</div>
+			</div>
+		</section>
+		<section id="field">
+			<h1 name="1">About me</h1>
+			<div id="txt"><p class="spacing">My name is Milos Stojanovski, I am a student of ICT College in Belgrade, Serbia. Programming, coding and digital design have always been a center of my interest, thus I always strived to excell in theese areas, with my primary goal being set on becoming a full stack developer. I am currently working full time at Euronet World Wide, as a System Analyst.</p></div>
+			<img class="spacing" src="image/profile.jpeg" alt="profile">
+		</section>
+		<section id="cont">
+		<h1>Contact me</h1>
+			<div id="kon">
+				<p class="spacing">stojanovski.milos2@gmail.com</p>
+				<p class="spacing">+381 60 371 58 35</p>
+				<ul class="spacing">
+					<li><a href="https://www.linkedin.com/in/milos-stojanovski-7903a6153/"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://www.facebook.com/milos.stojanovski"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="https://www.instagram.com/milos__stojanovski/"><i class="fab fa-instagram-square"></i></a></li>
+				</ul>
+				
+			</div>
+		</section>
+		<footer id="futer">
+		<ul>
+			<li><p>Copyright &copy; Milos Stojanovski 2021</p></li>
+			<li><a href="sitemap.xml"><i class="fas fa-sitemap"></i></a></li>
+			<li><a href="css/sass.sass"><i class="fab fa-sass"></i></a></li>
+		</ul>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>  
+ 			$(window).on("scroll", function() {
+    			if($(window).scrollTop() > 680) {
+        			$("#navigacija").addClass("on-scroll");
+    			} else {
+       				$("#navigacija").removeClass("on-scroll");
+    			}
+			});
+		</script>
+	</body>
+</html>
