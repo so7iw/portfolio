@@ -1,0 +1,159 @@
+@media screen and (max-width: 1441px){
+    #gallery {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    #sk{
+        height:1100px;
+    }
+    #heder{
+        height:830px;
+    }
+    #profile{
+        margin-top: 30px;
+    }
+    #omot{
+        justify-content: space-around;
+    }
+    #gallery {
+        height: 1800px;
+    }
+}
+@media screen and (max-width: 769px){
+    #code {
+        background-image: url('../image/code1.jpg');
+        background-size:1000px;
+    }
+    .background{
+        height:500px;
+        width: 100%;
+    }
+    #sk{
+        height:1100px;
+    }
+    #kon, #forma, #sign, #sign2{
+        width: 450px;
+    }
+    #cont{
+        height: 1000px;
+    }
+    #sign{
+        display:none;
+    }
+    #sign2{
+        display:block;
+    }
+    #forma{
+        padding-top:80px;
+    }
+}
+@media screen and (max-width: 426px){
+    #kon, #forma, #sign, #sign2{
+        width: 380px;
+    }
+    h1, h2, h3{
+        font-size: 25px;
+    }
+    #txt p, .img p, #futer ul li p{
+        font-size:15px;
+    }
+    #navigacija ul li a{
+        font-size:10px;
+        font-weight: 280;
+    }
+    .background{
+        height:200px;
+        width: 100%;
+    }
+    #code {
+        background-size:700px;
+    }
+    .skill img{
+        height: 150px;
+        width:auto;
+    }
+    #omot .img {
+        width:400px;
+    }
+    #gallery{
+        height: 1380px;
+        padding-top:50px;
+    }
+    .img a img {
+        width:100%;
+        height: auto;
+    }
+    #sk{
+        height:850px;
+        margin:10px 0px 50px 0px;
+    }
+    #txt{
+        width:400px;
+    }
+    #introduction{
+        padding-top: 20%;
+    }
+    .skill{
+        width: 120px;
+    }
+    .skill img{
+        height: 80px;
+    }
+    .skill h4{
+        font-size:15px;
+    }
+    .skill p{
+        font-size: 12px;
+    }
+    .img p{
+        font-size: 12px;
+    }
+    .small{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 376px){
+    #txt{
+        width:345px;
+    }
+    #sk{
+        height: 850px;
+    }
+    #kon, #forma, #sign, #sign2{
+        width: 310px;
+    }
+    #gallery{
+        height:1250px;
+    }
+}
+@media screen and (max-width: 321px){
+    h1, h2, h3{
+        font-size: 20px;
+    }
+    #about p, #txt p, .img p, #futer ul li p, #kon p{
+        font-size:12px;
+    }
+    #navigacija a{
+        font-size:23px;
+    }
+    #code {
+        background-size:500px;
+    }
+    #txt{
+        width:300px;
+    }
+    #gallery {
+        height: 1200px;
+    }
+    #kon, #forma, #sign, #sign2{
+        width: 250px;
+    }
+    h5{
+        font-size:14px;
+    }
+    #cont{
+        height: 900px;
+    }
+}
